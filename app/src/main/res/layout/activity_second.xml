@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Personal Information Section -->
+        <TextView
+            android:id="@+id/personal_info_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Information"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Name EditText -->
+        <EditText
+            android:id="@+id/name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Phone EditText -->
+        <EditText
+            android:id="@+id/phone_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Education Section -->
+        <TextView
+            android:id="@+id/education_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Add Education Button -->
+        <Button
+            android:id="@+id/add_education_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Education"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Work Experience Section -->
+        <TextView
+            android:id="@+id/work_experience_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Experience"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Add Work Experience Button -->
+        <Button
+            android:id="@+id/add_work_experience_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Work Experience"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Skills Section -->
+        <TextView
+            android:id="@+id/skills_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Skills EditText -->
+        <EditText
+            android:id="@+id/skills_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your skills"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Projects Section -->
+        <TextView
+            android:id="@+id/projects_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projects"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Add Projects Button -->
+        <Button
+            android:id="@+id/add_projects_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Projects"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Certifications Section -->
+        <TextView
+            android:id="@+id/certifications_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certifications"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Add Certifications Button -->
+        <Button
+            android:id="@+id/add_certifications_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Certifications"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Summary Section -->
+        <TextView
+            android:id="@+id/summary_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Summary EditText -->
+        <EditText
+            android:id="@+id/summary_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your summary"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
